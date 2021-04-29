@@ -1,0 +1,41 @@
+.content{
+    background-color: royalblue;
+  }
+  form{
+      margin: auto;
+      background-color: mintcream;
+      background-image: url();
+  }
+  #myform{
+      border-radius: 20px;
+      padding: 5px;
+      box-shadow: 0 20px 20px black;
+  } 
+  h2{
+      background-color: black;
+      color: white;
+      padding: 25px;
+      border-radius: 20px;
+      margin: 30px;
+  }
+  .container{
+      padding: 40px;
+      margin: auto;
+      max-width: 100%;
+      background-color: royalblue;
+  }
+  .form-group{
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+  input:hover{
+      background-color: rgb(232, 241, 252);
+      cursor: pointer;
+  }
+  button{
+      margin-bottom: 25px;
+  }
+  footer{
+      color: white;
+      font-size: medium;
+  }

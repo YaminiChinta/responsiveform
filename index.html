@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="data:image/png;base64,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" type="image/icon">
+  <link type="text/css" rel="stylesheet" href="styles.css" >
+</head>
+<body>
+<div class="content">
+<div class="container">
+   
+    <form class="form-horizontal" name="myform" id="myform" action="details.html" onsubmit="return validateform()">
+        <h2><center><b>Registration form</b></center></h2>
+
+    <br>
+    <div class="form-group ">
+        <label class="control-label col-sm-2" for="name">Full Name:</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" id="name" placeholder="Ex:dravid warner" name="name" >
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="pwd">Password:</label>
+        <div class="col-sm-9">
+          <input type="password" class="form-control" id="pwd" placeholder="Atleast 6 characters" name="pwd" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-9">
+        <input type="email" class="form-control" id="email" placeholder="Ex:dravid@gmail.com" name="email" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pno">Phone Number:</label>
+      <div class="col-sm-9">          
+        <input type="tel" class="form-control" id="pno" placeholder="10 digit mobile Number" name="pno" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="date">Birth Date:</label>
+        <div class="col-sm-9">          
+          <input type="date" class="form-control" id="date" placeholder="" name="date" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="gender">Gender: </label>
+        <div class="col-sm-9">
+        <label class="radio-inline"><input type="radio" name="gender">Male</label>
+        <label class="radio-inline"><input type="radio" name="gender">Female</label>
+        <label class="radio-inline"><input type="radio" name="gender">Others</label>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="lang">Languages Known:</label>
+        <div class="col-sm-9">
+        <label class="checkbox-inline"><input type="checkbox" value="">C</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">C++</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">Java</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">Python</label>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="country" class="control-label col-sm-2">Choose Country to Work:</label>
+        <div class="col-sm-9">
+        <select class="form-control-inline col-sm-3 input-sm" id="country">
+            <option>India</option>
+            <option>America</option>
+            <option>Australia</option>
+            <option>Russia</option>
+            <option>Japan</option>
+        </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="add" class="control-label col-sm-2">Address:</label>
+        <div class="col-sm-9">
+        <textarea class="form-control" rows="5" cols="100" id="add" required> </textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="file" class="control-label col-sm-2">Uplaod Photo:</label>
+        <div class="col-sm-9">
+            <input class="form-control" type="file" name="file" id="file" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="link" class="control-label col-sm-2 ">Github or replit link:</label>
+        <div class="col-sm-9">
+            <input class="form-control col-sm-10 input-sm" type="url" name="link" id="link" placeholder="http:/www.github.com" required>
+        </div>
+    </div>
+
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember"> Remember me</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <!-- <button type="submit" class="btn btn-success">Submit</button> -->
+        <input class="btn btn-success"  type="submit" value="Submit" class="submit">
+        <button type="reset" class="btn btn-primary">Reset</button>
+      </div>
+    </div><br><br>
+  </form>
+  
+</div>
+
+<footer><center>&copy GeminiSolutions</center></footer>
+</div>
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
